@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CD4081B")(type "KiCad")(uri "/home/nicoor/.local/share/kicad/9.0/symbols/ul_CD4081BM/KiCADv6/2025-08-10_21-00-13.kicad_sym")(options "")(descr ""))
+)
