@@ -1015,10 +1015,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "TODO: Math, 12->5\n"
+	(text_box "12->5 Iout = 1.5A"
 		(exclude_from_sim no)
 		(at 129.54 45.72 0)
-		(size 12.7 7.62)
+		(size 12.7 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1040,6 +1040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41d6d964-1a26-49a8-b170-a3b36b42ab42")
+	)
+	(junction
+		(at 162.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a390bcb-3d28-4bba-96f5-07b0af0e7195")
 	)
 	(junction
 		(at 82.55 66.04)
@@ -1094,12 +1100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5f1c22d-00f8-4493-83cd-15bead49d6a9")
-	)
-	(junction
-		(at 162.56 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1f8f7c0-94b2-45ae-87c0-1a2f84adf8fe")
 	)
 	(junction
 		(at 82.55 76.2)
@@ -1313,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 165.1 68.58)
+			(xy 153.67 68.58) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1343,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ca6dee-7e30-4b3a-93df-cd442600858f")
+	)
+	(wire
+		(pts
 			(xy 142.24 68.58) (xy 146.05 68.58)
 		)
 		(stroke
@@ -1360,16 +1370,6 @@
 			(type default)
 		)
 		(uuid "cb5e5410-b9d6-46f9-9237-b8d21d44a5af")
-	)
-	(wire
-		(pts
-			(xy 153.67 68.58) (xy 162.56 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d622c70f-20e5-431e-b1c4-c4ce4d7b0823")
 	)
 	(wire
 		(pts
@@ -1403,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 76.2)
+			(xy 162.56 68.58) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22u"
 			(at 156.21 73.152 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 				)
 			)
 		)
-		(property "Value" "Lo"
+		(property "Value" "20u"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -2204,75 +2204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 162.56 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd7e58ca-6454-4fc6-9641-191b29e09b3c")
-		(property "Reference" "R1"
-			(at 163.83 70.104 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 163.83 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "581c2173-9a48-47e6-8d5a-6d8ec9e5b255")
-		)
-		(pin "1"
-			(uuid "b3417fc3-894d-41bc-ba34-7f24da65eb17")
-		)
-		(instances
-			(project "LightsAndSuch"
-				(path "/f2987657-b7e0-480f-b307-23af9e47acd8/94c2b8e7-7d05-4ea8-a2a7-7484a2eccb30"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 82.55 0)
 		(unit 1)
@@ -2290,7 +2221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "75p"
 			(at 158.242 83.82 0)
 			(effects
 				(font
@@ -2351,7 +2282,7 @@
 		(dnp no)
 		(uuid "d475c781-77fe-4721-9ea4-b10c329c0b8a")
 		(property "Reference" "C3"
-			(at 148.59 71.12 0)
+			(at 147.828 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,8 +2290,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 148.844 73.6599 0)
+		(property "Value" "22u"
+			(at 148.082 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
