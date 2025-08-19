@@ -624,6 +624,14 @@
     [
       "9373307b-a4a6-42a2-abcb-7ce9610a8e60",
       "CD4081B"
+    ],
+    [
+      "b245a795-7bcf-4378-ba2c-011225b00e04",
+      "Primary Sound Circuit"
+    ],
+    [
+      "3c745f32-9941-47d3-8c17-4533b0602ad5",
+      "Secondary Sound Circuit"
     ]
   ],
   "text_variables": {}
