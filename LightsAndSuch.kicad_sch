@@ -5,15 +5,35 @@
 	(uuid "f2987657-b7e0-480f-b307-23af9e47acd8")
 	(paper "A4")
 	(lib_symbols)
+	(text_box "I should probably flatten the sheets into the root, and seperate them with boxes instead "
+		(exclude_from_sim no)
+		(at 76.2 59.69 0)
+		(size 21.59 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "01570f00-0c58-43fc-8eed-c0bfb3919ab1")
+	)
 	(junction
-		(at 107.95 60.96)
+		(at 71.12 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dbbd6c24-75ab-4487-a713-46fc1aa2912a")
+		(uuid "742ecb36-6a58-4c87-ad49-193aeb23d596")
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 114.3 80.01)
+			(xy 71.12 92.71) (xy 76.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +43,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 60.96) (xy 107.95 80.01)
+			(xy 66.04 78.74) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d551a1-a0b1-4994-abd5-3e3abc1e4aac")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -33,26 +63,16 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 60.96) (xy 113.03 60.96)
+			(xy 71.12 78.74) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b566634c-f143-4288-bb0e-ab30d20336d9")
-	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 107.95 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7342f10-7991-4add-967e-e7be5f593c1e")
+		(uuid "dd9b2348-7c8b-4494-bcbe-d31bdf7ce27c")
 	)
 	(sheet
-		(at 114.3 77.47)
+		(at 76.2 90.17)
 		(size 21.59 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +88,7 @@
 		)
 		(uuid "3c745f32-9941-47d3-8c17-4533b0602ad5")
 		(property "Sheetname" "Secondary Sound Circuit"
-			(at 114.3 76.7584 0)
+			(at 76.2 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +97,7 @@
 			)
 		)
 		(property "Sheetfile" "SecondarySoundCircuit.kicad_sch"
-			(at 114.3 86.9446 0)
+			(at 76.2 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +106,7 @@
 			)
 		)
 		(pin "Trigger" input
-			(at 114.3 80.01 180)
+			(at 76.2 92.71 180)
 			(uuid "c3110ca7-dd24-4d3c-9f66-1a0080710e88")
 			(effects
 				(font
@@ -104,8 +124,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 46.99)
-		(size 12.7 20.32)
+		(at 44.45 74.93)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -120,7 +140,7 @@
 		)
 		(uuid "9373307b-a4a6-42a2-abcb-7ce9610a8e60")
 		(property "Sheetname" "CD4081B"
-			(at 81.28 46.2784 0)
+			(at 44.45 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +149,7 @@
 			)
 		)
 		(property "Sheetfile" "CD4081B.kicad_sch"
-			(at 81.28 67.8946 0)
+			(at 44.45 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +158,7 @@
 			)
 		)
 		(pin "Button" input
-			(at 81.28 50.8 180)
+			(at 44.45 85.09 180)
 			(uuid "335709c2-b31c-4c97-8401-271453c2148c")
 			(effects
 				(font
@@ -148,7 +168,7 @@
 			)
 		)
 		(pin "Trigger" output
-			(at 93.98 60.96 0)
+			(at 66.04 78.74 0)
 			(uuid "4349d427-f684-4d5c-8110-99628e11e5ef")
 			(effects
 				(font
@@ -158,7 +178,7 @@
 			)
 		)
 		(pin "Break" input
-			(at 81.28 53.34 180)
+			(at 44.45 87.63 180)
 			(uuid "d798d367-d7c7-4e8b-9b07-5ebbe9e08f73")
 			(effects
 				(font
@@ -168,7 +188,7 @@
 			)
 		)
 		(pin "TSA" input
-			(at 81.28 55.88 180)
+			(at 44.45 90.17 180)
 			(uuid "89d71f6b-3d5c-4387-bb26-0d3ca3490d64")
 			(effects
 				(font
@@ -186,7 +206,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 17.78)
+		(at 44.45 60.96)
 		(size 21.59 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -201,7 +221,7 @@
 		)
 		(uuid "94c2b8e7-7d05-4ea8-a2a7-7484a2eccb30")
 		(property "Sheetname" "TPS54202"
-			(at 81.026 17.018 0)
+			(at 44.196 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,7 +230,7 @@
 			)
 		)
 		(property "Sheetfile" "TPS54202.kicad_sch"
-			(at 81.026 27.178 0)
+			(at 44.196 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +247,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 33.02)
+		(at 44.45 46.99)
 		(size 21.59 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -243,7 +263,7 @@
 		)
 		(uuid "b1bb47a3-165c-4c9a-9065-ca3b3c01af3d")
 		(property "Sheetname" "TPS57A20"
-			(at 81.28 32.3084 0)
+			(at 44.45 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +272,7 @@
 			)
 		)
 		(property "Sheetfile" "TPS57A20.kicad_sch"
-			(at 81.28 42.4946 0)
+			(at 44.45 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +289,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 58.42)
+		(at 76.2 76.2)
 		(size 21.59 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -285,7 +305,7 @@
 		)
 		(uuid "b245a795-7bcf-4378-ba2c-011225b00e04")
 		(property "Sheetname" "Primary Sound Circuit"
-			(at 113.03 57.7084 0)
+			(at 76.2 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +314,7 @@
 			)
 		)
 		(property "Sheetfile" "PrimarySoundCircuit.kicad_sch"
-			(at 113.03 67.8946 0)
+			(at 76.2 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +323,7 @@
 			)
 		)
 		(pin "Trigger" input
-			(at 113.03 60.96 180)
+			(at 76.2 78.74 180)
 			(uuid "89e12f40-44f6-469d-926c-0369809ea2e1")
 			(effects
 				(font
@@ -316,6 +336,48 @@
 			(project "LightsAndSuch"
 				(path "/f2987657-b7e0-480f-b307-23af9e47acd8"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 106.68)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b99f5149-1263-400e-aca3-9e798b1be941")
+		(property "Sheetname" "Lights"
+			(at 44.45 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lights.kicad_sch"
+			(at 44.45 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LightsAndSuch"
+				(path "/f2987657-b7e0-480f-b307-23af9e47acd8"
+					(page "7")
 				)
 			)
 		)

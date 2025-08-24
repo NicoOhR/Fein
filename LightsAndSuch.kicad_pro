@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -632,6 +633,10 @@
     [
       "3c745f32-9941-47d3-8c17-4533b0602ad5",
       "Secondary Sound Circuit"
+    ],
+    [
+      "b99f5149-1263-400e-aca3-9e798b1be941",
+      "Lights"
     ]
   ],
   "text_variables": {}
