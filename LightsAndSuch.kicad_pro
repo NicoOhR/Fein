@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -613,30 +613,6 @@
     [
       "f2987657-b7e0-480f-b307-23af9e47acd8",
       "Root"
-    ],
-    [
-      "94c2b8e7-7d05-4ea8-a2a7-7484a2eccb30",
-      "TPS54202"
-    ],
-    [
-      "b1bb47a3-165c-4c9a-9065-ca3b3c01af3d",
-      "TPS57A20"
-    ],
-    [
-      "9373307b-a4a6-42a2-abcb-7ce9610a8e60",
-      "CD4081B"
-    ],
-    [
-      "b245a795-7bcf-4378-ba2c-011225b00e04",
-      "Primary Sound Circuit"
-    ],
-    [
-      "3c745f32-9941-47d3-8c17-4533b0602ad5",
-      "Secondary Sound Circuit"
-    ],
-    [
-      "b99f5149-1263-400e-aca3-9e798b1be941",
-      "Lights"
     ]
   ],
   "text_variables": {}
