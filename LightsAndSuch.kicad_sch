@@ -6702,14 +6702,6 @@
 		(uuid "ff546df3-6aac-4337-83ad-c9f1954f1705")
 	)
 	(no_connect
-		(at 284.48 120.65)
-		(uuid "17374224-ee3a-4864-a2e3-40d61c623a7e")
-	)
-	(no_connect
-		(at 163.83 96.52)
-		(uuid "2cd7dd2b-51b0-440e-b0bf-01a95b135cce")
-	)
-	(no_connect
 		(at 40.64 129.54)
 		(uuid "9ed1c3c2-9280-4dff-8ad6-bc471e5eda70")
 	)
@@ -6720,15 +6712,6 @@
 	(no_connect
 		(at 368.3 125.73)
 		(uuid "ff062fab-2811-45de-98ca-87361861fd65")
-	)
-	(bus_entry
-		(at 166.37 212.09)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e800ee3-fda4-462e-9ffd-4ec407c8feab")
 	)
 	(wire
 		(pts
@@ -6789,16 +6772,6 @@
 			(type default)
 		)
 		(uuid "05a48037-c5dd-4576-aa96-083cb0ed3053")
-	)
-	(wire
-		(pts
-			(xy 330.2 125.73) (xy 330.2 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06abdd02-2d88-44fc-a490-4c4b2f067550")
 	)
 	(wire
 		(pts
@@ -9490,16 +9463,6 @@
 		)
 		(uuid "86025a36-2ba6-4403-b5f6-29566d1a2d91")
 	)
-	(label "VIN"
-		(at 330.2 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e07518f-83a7-4ffe-8caf-e221e2425ad7")
-	)
 	(label "QSPI_SD2"
 		(at 179.07 173.99 0)
 		(effects
@@ -9509,6 +9472,16 @@
 			(justify left bottom)
 		)
 		(uuid "99d01f12-eed4-479b-b6d3-37302cfca4cc")
+	)
+	(label "VIN"
+		(at 330.2 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27b3478-f752-423e-ab3c-87cd30fcb225")
 	)
 	(label "FAULT_N"
 		(at 368.3 113.03 0)
@@ -9663,28 +9636,6 @@
 		(uuid "06d0929c-ef7b-4c5a-9003-d70b4056570d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.8612 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMD_Fault"
-		(shape input)
-		(at 330.2 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0818752c-0ffd-4871-bda0-5ef9eb01e902")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.2565 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,6 +9949,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMD_Fault"
+		(shape input)
+		(at 330.2 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe94b30a-42f4-4ac6-b742-b258a95adfe7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.2565 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
