@@ -9293,6 +9293,16 @@
 		)
 		(uuid "0ced7163-4f49-4980-bd40-89e9b568fbfc")
 	)
+	(label "LS2_P"
+		(at 355.6 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15e2cbb2-0bc6-4501-99c8-0768a99cf607")
+	)
 	(label "FAULT_P"
 		(at 58.42 201.93 90)
 		(effects
@@ -9343,16 +9353,6 @@
 		)
 		(uuid "285a476c-91c1-455e-bd2e-b92dde7394a2")
 	)
-	(label "LS2_P"
-		(at 355.6 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cbfdfa6-9137-490f-bb3f-6f91c64fd72a")
-	)
 	(label "USB_D-"
 		(at 177.8 153.67 0)
 		(effects
@@ -9382,26 +9382,6 @@
 			(justify left bottom)
 		)
 		(uuid "3bb0abde-1127-4a9e-ab01-c90a6fc5bdf0")
-	)
-	(label "OK_P"
-		(at 355.6 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44f3bd85-75c3-4827-891b-8d34c536acfe")
-	)
-	(label "LS3_P"
-		(at 355.6 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52aec773-7943-483e-84e2-efb9ba8839b3")
 	)
 	(label "QSPI_SCLK"
 		(at 223.52 250.19 0)
@@ -9503,6 +9483,16 @@
 		)
 		(uuid "b1237e5e-2e2f-4101-83b0-8dc734cbca09")
 	)
+	(label "OK_P"
+		(at 355.6 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b33f773e-863d-4a82-86ad-8ac107fa1315")
+	)
 	(label "LS1_N"
 		(at 368.3 123.19 0)
 		(effects
@@ -9542,6 +9532,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba46daed-6dfa-437d-a63f-bd6f043dab3a")
+	)
+	(label "LS3_P"
+		(at 355.6 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba478f89-1ed6-49b7-a832-da353bdf3b66")
 	)
 	(label "QSPI_SS"
 		(at 223.52 247.65 0)
